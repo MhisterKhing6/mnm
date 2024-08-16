@@ -1,0 +1,17 @@
+{
+    "host": {
+        "onePath":"https://hallmarkcaffee.onrender.com",
+        "port": 8000,
+        "protocol": "http",
+        "ip": "localhost"
+    }, 
+
+    "MONGO_URI":"mongodb+srv://agyinjohn97:zZmEinYKjbxocncU@cluster0.mjwns0s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "email": {
+        "email": "autocodegrader75@gmail.com",
+        "secrete": "okuiugeaouthupzv"
+    },
+    "token": {
+        "secreteKey": "9834%si^Ko"
+    }
+}

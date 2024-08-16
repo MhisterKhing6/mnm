@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Welcome Email</title>
+  <style>
+        body {
+            background-color: rgb(14, 14, 1);
+            color: white;
+            font-size: 20px;
+            line-height: 1.5rem;
+        }
+        .head {
+            
+            width: 100%;
+            flex-direction: column;
+            color: white;
+            padding-top: 20px;
+        }
+        a {
+          text-decoration: none;
+          color: black;
+        }
+        .center {
+           height: 100px;
+           width: 400px;
+        }
+        .verify-button {
+          height: 50px;
+          background-color: rgb(214, 191, 124);
+          color: black;
+          text-align: center;
+          border-radius: 5px;
+          border: 1px solid white;
+          font-size: 2rem;
+          display: block;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .line  {
+          color: white;
+          width: 100%;
+          font-weight: bold;
+        }
+        .intro {
+          padding: 10px;
+          box-shadow: 2;
+          min-height: 70vh;
+        }
+        footer {
+          min-height: 10vh;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+        }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+  </style>
+</head>
+<body>
+  
+    <h1 class="center">{{orderId}} info</h1>
+    <hr />
+
+    <div class="intro">
+      <br> <h1 > Dear {{name}}, </h1>
+
+          The order on  {{day}} is {{status}}<br />
+          Please bellow is you password to log into the system
+          <h2>Please password: </h2> <br />
+          <h1 class="">{{password}} </h1>
+          <br />
+          <p>Access this link to log into the system <i>front end log in link </i></p>
+          <br />
+          you can change the password at the profile section<br /> <br />
+
+        Thank you for your cooperation.</p>
+    </div>
+    
+</body>
+</html> 
